@@ -13,7 +13,7 @@ import "@openzeppelin/contracts/governance/TimelockController.sol";
  * without being subject to delay, but this role should be subsequently renounced in favor of
  * administration through timelocked proposals. Previous versions of this contract would assign
  * this admin to the deployer automatically and should be renounced as well.
- */
+ */ 
 
 contract Timelock is TimelockController {
     constructor(
